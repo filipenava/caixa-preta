@@ -1,0 +1,8 @@
+node_modules/
+evidence/
+*.log
+dist/
+assets/source-*
+docs/cheers-source.html
+.env
+.env.*

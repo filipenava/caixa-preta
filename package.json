@@ -1,0 +1,19 @@
+{
+  "name": "caixa-preta-hub",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Protótipo local do hub e painel editorial da Produtora Caixa Preta",
+  "scripts": {
+    "dev": "node server.cjs",
+    "start": "node server.cjs",
+    "test": "node verify.cjs",
+    "build": "node build.cjs",
+    "test:responsive": "node responsive-check.cjs"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "playwright": "1.56.1"
+  }
+}
